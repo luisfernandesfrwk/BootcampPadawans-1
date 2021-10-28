@@ -1,5 +1,4 @@
 import React from "react"
-
 import Nav from "./components/nav-bar/Nav.jsx"
 import Events from "./components/events-list/Events.jsx"
 import Calendar from "./components/calendar/Calendar.jsx"
