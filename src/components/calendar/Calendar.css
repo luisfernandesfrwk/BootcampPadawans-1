@@ -1,0 +1,51 @@
+section{
+    width: 70%;
+    height: 90vh;
+    padding: 15px 25px;
+}
+
+section h1{
+    margin-bottom: 20px;
+    font-size: 2.3rem;
+}
+
+section .content{
+    display: block;
+} 
+
+section .content .options{
+    width: 100%;
+}
+
+section .content .options ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 60px;
+}
+
+section .content .options ul li a{
+    text-decoration: none;
+}
+
+section .content .options li a{
+    text-decoration: none;
+    background-color:#97BF7A;
+    color: #000;
+    border-radius: 5px;
+    height: 1rem;
+    font-size: 1.5rem;
+}
+
+section .content .options li #btnCriar{
+    padding: 1rem 150px;
+}
+
+section .content .options li #btnCadastradas {
+    padding: 1rem 150px;
+}
+
+section .content .options li a:hover{
+    background-color: #000;
+    color: #ffff;
+}

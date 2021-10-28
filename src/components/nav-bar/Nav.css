@@ -1,0 +1,43 @@
+nav{
+    height: 10vh;
+    background-color:#97BF7A;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+nav h1{
+    font-size: 3rem;
+}
+
+nav h1 i{
+    font-size: 3.3rem;
+}
+
+nav .notLog ul{
+    list-style: none;
+    display: flex;
+}
+
+nav .notLog li{
+    margin-right: 20px;
+}
+
+nav .notLog a{
+    text-decoration: none;
+    background-color:#043412;
+    color: rgb(243, 235, 235);
+    padding: 10px 50px;
+    border-radius: 5px;
+    font-size: 1.3rem;
+}
+
+nav .notLog a:hover{
+    color: rgb(17, 17, 17);
+    background-color: rgb(243, 235, 235);
+}
+
+nav .logged{
+    display: none;
+}
