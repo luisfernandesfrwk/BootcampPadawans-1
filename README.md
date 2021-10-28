@@ -18,7 +18,7 @@ Nós pensamos em uma aplicação WEB que possibilita as ONG's marcarem eventos e
 
 ### Documentação
 
-[Documentação](https://docs.google.com/document/d/15d9ROUsRVwjCjsLZMBGppag2MU1I7aGosh-GhE6Dut4/edit).\
+[Documentação](https://docs.google.com/document/d/15d9ROUsRVwjCjsLZMBGppag2MU1I7aGosh-GhE6Dut4/edit)\
 [Trello](https://trello.com/b/halPgdjs/bootcamp)
 
 # Getting Started with Create React App
