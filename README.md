@@ -14,11 +14,11 @@ Nós pensamos em uma aplicação WEB que possibilita as ONG's marcarem eventos e
 
 ### Figma
 
-[Protótipo Inicial de Alta Fidelidade](https://www.figma.com/file/Ehq1CQfkwb9rAKx6NAXLb7/ONGarniza?node-id=4%3A4)
+[Protótipo Inicial de Alta Fidelidade](https://www.figma.com/file/Ehq1CQfkwb9rAKx6NAXLb7/ONGarniza?node-id=0%3A1)
 
 ### Documentação
 
-[Documentação](https://docs.google.com/document/d/15d9ROUsRVwjCjsLZMBGppag2MU1I7aGosh-GhE6Dut4/edit)
+[Documentação](https://docs.google.com/document/d/15d9ROUsRVwjCjsLZMBGppag2MU1I7aGosh-GhE6Dut4/edit).\
 [Trello](https://trello.com/b/halPgdjs/bootcamp)
 
 # Getting Started with Create React App
