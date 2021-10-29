@@ -4,7 +4,6 @@ section{
     padding: 15px 25px;
 }
 
-<<<<<<< HEAD
 section .content{
     display: block;
     position: relative;
@@ -21,26 +20,12 @@ section .content .options{
     width: 100%;
     position: absolute;
     top: 78vh;
-=======
-section h1{
-    margin-bottom: 20px;
-    font-size: 2.3rem;
-}
-
-section .content{
-    display: block;
-} 
-
-section .content .options{
-    width: 100%;
->>>>>>> a9c3d75aab1850a543cd3744950bcefcad9422d2
 }
 
 section .content .options ul{
     list-style: none;
     display: flex;
     justify-content: space-around;
-<<<<<<< HEAD
 }
 
 section .content .options ul li #btnCriar, #btnONG {
@@ -59,33 +44,3 @@ section .content .options ul li #btnCriar:hover, #btnONG:hover{
     color: #ffff;
 }
 
-=======
-    margin-top: 60px;
-}
-
-section .content .options ul li a{
-    text-decoration: none;
-}
-
-section .content .options li a{
-    text-decoration: none;
-    background-color:#97BF7A;
-    color: #000;
-    border-radius: 5px;
-    height: 1rem;
-    font-size: 1.5rem;
-}
-
-section .content .options li #btnCriar{
-    padding: 1rem 150px;
-}
-
-section .content .options li #btnCadastradas {
-    padding: 1rem 150px;
-}
-
-section .content .options li a:hover{
-    background-color: #000;
-    color: #ffff;
-}
->>>>>>> a9c3d75aab1850a543cd3744950bcefcad9422d2

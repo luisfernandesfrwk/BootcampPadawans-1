@@ -6,35 +6,21 @@ aside{
     overflow: auto;
 }
 
-<<<<<<< HEAD
-=======
-aside h1{
-    font-size: 2.3rem;
-}
-
->>>>>>> a9c3d75aab1850a543cd3744950bcefcad9422d2
 .card {
     width: 100%;
     height: 100px;
     background-color: #ffff;
     border-radius: 5px;
-<<<<<<< HEAD
     padding: 8px;
-=======
-    padding: 0.4rem 1.2rem;
->>>>>>> a9c3d75aab1850a543cd3744950bcefcad9422d2
     margin-top: 20px;
     position: relative;
     overflow: hidden;
 }
 
-<<<<<<< HEAD
 .isOpen {
     height: 160px;
 }
 
-=======
->>>>>>> a9c3d75aab1850a543cd3744950bcefcad9422d2
 .card .content{
     width: 80%;
     display: block;
