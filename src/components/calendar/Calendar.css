@@ -30,7 +30,7 @@ section .content .options ul{
 
 section .content .options ul li #btnCriar, #btnONG {
     padding: 15px;
-    width: 275px;
+    width: 20vw;
     background-color: #97BF7A;
     color: rgb(0, 0, 0);
     border-radius: 5px;

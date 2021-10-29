@@ -18,21 +18,42 @@ export default function SignUpModal() {
                     <div onClick={toggleModal} className="overlay"></div>
                     <div className="modal-content">
                         <h2>Cadastro ONGs</h2>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                            Ratione fugit reiciendis deserunt recusandae sed odit tempora numquam
-                            repellat sapiente minus.
-                        </p>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                            Ratione fugit reiciendis deserunt recusandae sed odit tempora numquam
-                            repellat sapiente minus.
-                        </p>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                            Ratione fugit reiciendis deserunt recusandae sed odit tempora numquam
-                            repellat sapiente minus.
-                        </p>
+                        <div className="form-criar-conta">
+                            <label>
+                                Nome da ONG
+                            </label>
+                            <input type="text" />
+                            <label>
+                                CNPJ
+                            </label>
+                            <input type="text" />
+                            <label>
+                                EMAIL
+                            </label>
+                            <input type="text" />
+                            <label>
+                                NUMERO
+                            </label>
+                            <input type="text" />
+                            <label>
+                                ENDEREÇO
+                            </label>
+                            <input type="text" />
+                            <label>
+                                FOTO
+                            </label>
+                            <input type="text" />
+                            <label>
+                                SENHA
+                            </label>
+                            <input type="text" />
+                            <label>
+                                CONFIRME SENHA
+                            </label>
+                            <input type="text" />
+
+                            <button className="criar-conta">Criar Evento</button>
+                        </div>
                         <button className="close-modal" onClick={toggleModal}>
                             X
                         </button>

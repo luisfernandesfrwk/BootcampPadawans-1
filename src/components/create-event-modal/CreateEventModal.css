@@ -27,8 +27,8 @@
     background: #f1f1f1;
     padding: 14px 28px;
     border-radius: 3px;
-    max-width: 600px;
-    min-width: 300px;
+    max-width: 900px;
+    min-width: 500px;
 }
 
 .modal-content h2{
@@ -50,4 +50,9 @@
     border-radius: 50%;
     cursor: pointer;
     font-size: 17px;
+}
+
+.form-criar-evento{
+    display: flex;
+    flex-direction: column;
 }

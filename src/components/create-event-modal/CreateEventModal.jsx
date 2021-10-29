@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 
 import "./CreateEventModal.css";
+import iconeNomeDoEvento from "../../assets/imagens/CriarEvento/name2-icon 1.png" 
 
 export default function CreateEventModal() {
     const [modal, setModal] = useState(false);
@@ -18,21 +19,43 @@ export default function CreateEventModal() {
                     <div onClick={toggleModal} className="overlay"></div>
                     <div className="modal-content">
                         <h2>Criar Evento</h2>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                            Ratione fugit reiciendis deserunt recusandae sed odit tempora numquam
-                            repellat sapiente minus.
-                        </p>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                            Ratione fugit reiciendis deserunt recusandae sed odit tempora numquam
-                            repellat sapiente minus.
-                        </p>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                            Ratione fugit reiciendis deserunt recusandae sed odit tempora numquam
-                            repellat sapiente minus.
-                        </p>
+                        <div className="form-criar-evento">
+                        <label>
+                            <img src={iconeNomeDoEvento} alt="Nome do Evento" />
+                        </label>
+                        <input type="text" />
+                        <label>
+                            CNPJ
+                        </label>
+                        <input type="text" />
+                        <label>
+                            EMAIL
+                        </label>
+                        <input type="text" />
+                        <label>
+                            NUMERO
+                        </label>
+                        <input type="text" />
+                        <label>
+                            ENDEREÇO
+                        </label>
+                        <input type="text" />
+                        <label>
+                            FOTO
+                        </label>
+                        <input type="text" />
+                        <label>
+                            SENHA
+                        </label>
+                        <input type="text" />
+                        <label>
+                            CONFIRME SENHA
+                        </label>
+                        <input type="text" />
+
+                        <button className="criar-conta">Criar Conta</button>
+                        </div>
+
                         <button className="close-modal" onClick={toggleModal}>
                             X
                         </button>
