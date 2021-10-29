@@ -1,3 +1,26 @@
+# Definição Projeto Bootcamp Padawans
+
+## Tema
+
+Cidades e Comunidades Sustentáveis
+
+## Problemática
+
+Apoiar relações econômicas, sociais e ambientais positivas entre áreas urbanas, periurbanas e rurais, reforçando o planejamento nacional e regional de desenvolvimento. Dado o escopo, o problema encontrado foi que as ONG's organizam muitas ações beneficientes, e podem passar por dificuldades de comunicação e organização com outras ONG's que gostariam de realizar ações no mesmo local e dia.
+
+## Solução
+
+Nós pensamos em uma aplicação WEB que possibilita as ONG's marcarem eventos e visualizarem eventos já marcados por outras ONG's, assim evitando conflitos de agenda. Nessa aplicação também é possível que pessoas que estão dispostas a ajudar as ONG's visualizem informações sobre as campanhas.
+
+### Figma
+
+[Protótipo Inicial de Alta Fidelidade](https://www.figma.com/file/Ehq1CQfkwb9rAKx6NAXLb7/ONGarniza?node-id=0%3A1)
+
+### Documentação
+
+[Documentação](https://docs.google.com/document/d/15d9ROUsRVwjCjsLZMBGppag2MU1I7aGosh-GhE6Dut4/edit)\
+[Trello](https://trello.com/b/halPgdjs/bootcamp)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

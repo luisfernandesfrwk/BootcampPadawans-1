@@ -1,6 +1,10 @@
 nav{
     height: 10vh;
+<<<<<<< HEAD
     background-color: #97BF7A;
+=======
+    background-color:#97BF7A;
+>>>>>>> a9c3d75aab1850a543cd3744950bcefcad9422d2
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -8,11 +12,19 @@ nav{
 }
 
 nav h1{
+<<<<<<< HEAD
     font-size: 2rem;
 }
 
 nav h1 i{
     font-size: 2.5rem;
+=======
+    font-size: 3rem;
+}
+
+nav h1 i{
+    font-size: 3.3rem;
+>>>>>>> a9c3d75aab1850a543cd3744950bcefcad9422d2
 }
 
 nav .notLog ul{
@@ -24,6 +36,7 @@ nav .notLog li{
     margin-right: 20px;
 }
 
+<<<<<<< HEAD
 nav .notLog #btnNav{
     background-color: #043412;
     color: rgb(243, 235, 235);
@@ -36,6 +49,19 @@ nav .notLog #btnNav{
 
 nav .notLog #btnNav:hover{
     color: #043412;
+=======
+nav .notLog a{
+    text-decoration: none;
+    background-color:#043412;
+    color: rgb(243, 235, 235);
+    padding: 10px 50px;
+    border-radius: 5px;
+    font-size: 1.3rem;
+}
+
+nav .notLog a:hover{
+    color: rgb(17, 17, 17);
+>>>>>>> a9c3d75aab1850a543cd3744950bcefcad9422d2
     background-color: rgb(243, 235, 235);
 }
 
