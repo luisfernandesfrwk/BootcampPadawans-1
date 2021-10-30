@@ -9,7 +9,53 @@
     position: fixed;
 }
 
-.modal {
+input {
+    width: 80%;
+    outline: none;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    padding:0px 5px;
+    background-color:#E0E0E0;
+}
+
+input:focus{
+    border: 1px solid #97BF7A;
+}
+
+.foto-label{
+    width: 35%;
+    height: 30px;
+    border-radius: 5px;
+    padding:5px;
+    background-color:#E0E0E0;
+    font-size: 13px;
+    color: rgb(104, 100, 100);
+}
+
+.foto-upload{
+    padding: 5px 0;
+    width: 150px;
+    background-color: #97BF7A;
+    color: rgb(0, 0, 0);
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+    font-size: 16px;
+    margin-left: 10px;
+    display:flex;
+    justify-content: center;
+}
+
+.foto{
+    display: none;
+}
+
+label{
+    display:flex;
+}
+
+.modal{
     z-index: 1;
 }
 
@@ -17,26 +63,28 @@
     background: rgba(49, 49, 49, 0.8);
 }
 
-.modal-content {
+.modal-content-cadastro {
     position: absolute;
     top: 50%;
     left: 50%;
-    height: 60vh;
+    min-height: 85vh;
     transform: translate(-50%, -50%);
     line-height: 1.4;
-    background: #f1f1f1;
+    background:#FFFFFF;
     padding: 14px 28px;
     border-radius: 3px;
-    max-width: 600px;
-    min-width: 300px;
+    max-width: 900px;
+    min-width: 500px;
 }
 
-.modal-content h2 {
+.modal-content-cadastro h2{
     margin-bottom: 20px;
+    text-align: center;
 }
 
-.modal-content p {
-    margin-bottom: 50px;
+img{
+    width: 35px;
+    margin: 10px;
 }
 
 .close-modal {
@@ -50,4 +98,33 @@
     border-radius: 50%;
     cursor: pointer;
     font-size: 17px;
+}
+
+.formGroup{
+    display: flex;
+    align-items: center;
+}
+
+.form-cadastro{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 80vh;
+}
+
+.btn-cadastro{
+    padding: 10px 0;
+    width: 220px;
+    background-color: #97BF7A;
+    color: rgb(0, 0, 0);
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+    font-size: 17px;
+    margin: 20px auto;
+}
+
+.btn-cadastro:hover{
+    background-color: #000;
+    color: #ffff;
 }
