@@ -46,11 +46,11 @@
     border: none;
     border-radius: 50%;
     cursor: pointer;
-    font-size: 17px;
+    padding: 10px;
 }
 
 .close-modal-singUp img{
-    width: 20px;
+    width: 15px;
 }
 
 .formGroup{
