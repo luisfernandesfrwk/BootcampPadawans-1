@@ -27,7 +27,6 @@ export default () =>{
             )
         })
     }
-
     return(
         <aside>
             <h1>Próximos Eventos</h1>

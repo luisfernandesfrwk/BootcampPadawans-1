@@ -3,7 +3,21 @@ aside{
     height: 90vh;
     background-color: #E8E8E8;
     padding: 15px 25px;
-    overflow: auto;
+    overflow-y: scroll;
+
+}
+aside::-webkit-scrollbar{
+    width: 1rem;
+    border: 2px solid #0000;
+    border-radius: 10px;
+    background-color: #c4c4c4cc;
+    margin-top: 50px;
+
+}
+aside::-webkit-scrollbar-thumb{
+    background-color: #97BF7A;
+    border-radius: 10px;
+    margin-right: 10px;
 }
 
 .card {
