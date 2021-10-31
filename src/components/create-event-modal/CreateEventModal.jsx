@@ -34,7 +34,7 @@ export default function CreateEventModal() {
                                 <label>
                                 <img src={iconeNomeDoEvento} alt="Nome do Evento" />
                                 </label>
-                                <input type="text" placeholder="Nome do Evento" name="nome" required/>
+                                <input type="text" placeholder="Nome do Evento" name="title" required/>
                             </div>
                             <div className="formGroup">
                                 <label>
@@ -52,13 +52,13 @@ export default function CreateEventModal() {
                                 <label>
                                 <img src={iconeHora} alt="horário"/>
                                 </label>
-                                <input type="text" placeholder="Horário" name="horario" required/>
+                                <input type="text" placeholder="Horário" name="hour" required/>
                             </div>
                             <div className="formGroup">
                                 <label>
                                 <img src={iconeData} alt="data"/>
                                 </label>
-                                <input type="date" placeholder="Data" name="data" required/>
+                                <input type="date" placeholder="Data" name="start" required/>
                             </div>
                             <div className="formGroup">
                                 <label>
@@ -70,19 +70,19 @@ export default function CreateEventModal() {
                                 <label>
                                 <img src={iconeFone} alt="Telefone"/>
                                 </label>
-                                <input type="text" placeholder="Telefone" name="telefone" required/>
+                                <input type="text" placeholder="Telefone" name="phone" required/>
                             </div>
                             <div className="formGroup">
                                 <label>
                                 <img src={iconeDoar} alt="Doações"/>
                                 </label>
-                                <input type="text" placeholder="Doações" name="doacoes" required/>
+                                <input type="text" placeholder="Doações" name="donations" required/>
                             </div>
                             <div className="formGroup">
                                 <label>
                                 <img src={iconeDescricao} alt="Descrição"/>
                                 </label>
-                                <input type="text" placeholder="Descrição" name="descricao" required/>
+                                <input type="text" placeholder="Descrição" name="description" required/>
                             </div>
                     
                         <button className="btn-evento" type="submit">Fazer Agendamento</button>

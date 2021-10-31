@@ -7,17 +7,14 @@ aside{
 
 }
 aside::-webkit-scrollbar{
-    width: 1rem;
-    border: 2px solid #0000;
+    width: 10px;
     border-radius: 10px;
     background-color: #c4c4c4cc;
-    margin-top: 50px;
-
 }
+
 aside::-webkit-scrollbar-thumb{
-    background-color: #97BF7A;
+    background-color: #77866d;
     border-radius: 10px;
-    margin-right: 10px;
 }
 
 .card {

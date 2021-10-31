@@ -35,7 +35,7 @@ export default function LoginModal() {
                                 <label>
                                 <img src={iconeSenha} alt="Senha" />
                                 </label>
-                                <input type="text" placeholder="Senha" name="senha" required/>
+                                <input type="text" placeholder="Senha" name="password" required/>
                             </div>
 
                             <button className="btn-login" type="submit">Entrar</button>

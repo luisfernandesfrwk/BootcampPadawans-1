@@ -16,6 +16,35 @@ section .content{
     z-index: 0;
 }
 
+#calendar .fc .fc-scrollgrid-liquid{
+    padding-left: 10px;
+}
+
+#calendar .fc .fc-daygrid-body-unbalanced .fc-daygrid-day-events{
+    padding: 0 2px;
+}
+
+#calendar .fc-h-event .fc-event-title-container{
+    background-color: #aadd86;
+    color: #000;
+    padding: 2px;
+}
+
+#calendar .fc .fc-scroller::-webkit-scrollbar{
+    width:5px;
+    background-color: #c4c4c4cc;
+}
+
+#calendar .fc .fc-scroller-liquid-absolute::-webkit-scrollbar{
+    width:5px;
+    background-color: #c4c4c4cc;
+}
+
+#calendar .fc .fc-scroller-liquid-absolute::-webkit-scrollbar-thumb{
+    background-color: #77866d;
+    border-radius:10px;
+}
+
 section .content .options{
     width: 100%;
     position: absolute;

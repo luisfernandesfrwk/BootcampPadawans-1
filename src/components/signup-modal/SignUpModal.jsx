@@ -31,7 +31,7 @@ export default function SignUpModal() {
                                 <label>
                                 <img src={iconeNomeDoEvento} alt="Nome da ONG" />
                                 </label>
-                                <input type="text" placeholder="Nome da ONG" name="nome" required/>
+                                <input type="text" placeholder="Nome da ONG" name="name" required/>
                             </div>
                             <div className="formGroup">
                                 <label>
@@ -49,13 +49,13 @@ export default function SignUpModal() {
                                 <label>
                                 <img src={iconeFone} alt="Telefone" />
                                 </label>
-                                <input type="text" placeholder="Telefone" name="telefone" required/>
+                                <input type="text" placeholder="Telefone" name="phone" required/>
                             </div>
                             <div className="formGroup">
                                 <label>
                                 <img src={iconeEndereco} alt="Endereço" />
                                 </label>
-                                <input type="text" placeholder="Endereço" name="endereço" required/>
+                                <input type="text" placeholder="Endereço" name="address" required/>
                             </div>
                             <div className="formGroup">
                                 <label>
@@ -64,21 +64,21 @@ export default function SignUpModal() {
                                 <label className="foto-label">Insira uma foto da instituição</label>
                                 <label htmlFor="foto" className="foto-upload">Escolher Arquivo</label>
                                 <input type="file" accept=".jpg, .jpeg, .png" 
-                                placeholder="Foto da Instituição" className="foto" id="foto" name="foto" 
+                                placeholder="Foto da Instituição" className="foto" id="foto" name="photo" 
                                 required/>
                             </div>
                             <div className="formGroup">
                                 <label>
                                 <img src={iconeSenha} alt="Senha" />
                                 </label>
-                                <input type="text" placeholder="Senha" name="senha" required/>
+                                <input type="text" placeholder="Senha" name="password" required/>
                             </div>
                             <div className="formGroup">
                                 <label>
                                 <img src={iconeSenha} alt="Confirme a Senha" />
                                 </label>
                                 <input type="text" placeholder="Confirme a Senha" 
-                                name="confirmaSenha" required/>
+                                name="passwordConfirm" required/>
                             </div>
 
                             <button className="btn-cadastro" type="submit">Criar Conta</button>
