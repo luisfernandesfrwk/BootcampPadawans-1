@@ -1,5 +1,12 @@
 import React, { useState } from "react";
 import iconeNomeDoEvento from "../../assets/imagens/CriarEvento/name2-icon 2.png"; 
+import iconeCnpj from "../../assets/imagens/CriarEvento/cnpj2-icon 4.png";
+import iconeEmail from "../../assets/imagens/CriarEvento/email-icon 2.png";
+import iconeFone from "../../assets/imagens/CriarEvento/fone-icon 3.png";
+import iconeEndereco from "../../assets/imagens/CriarEvento/end-icon 1.png";
+import iconeFoto from "../../assets/imagens/CriarEvento/foto2-icon 2.png";
+import iconeClose from "../../assets/imagens/CriarEvento/x.png";
+import iconeSenha from "../../assets/imagens/CriarEvento/cadeado-seguro.png";
 
 import "./SignUpModal.css";
 
@@ -28,31 +35,31 @@ export default function SignUpModal() {
                             </div>
                             <div className="formGroup">
                                 <label>
-                                <img src={iconeNomeDoEvento} alt="CNPJ" />
+                                <img src={iconeCnpj} alt="CNPJ" />
                                 </label>
                                 <input type="text" placeholder="CNPJ" name="cnpj" required/>
                             </div>
                             <div className="formGroup">
                                 <label>
-                                <img src={iconeNomeDoEvento} alt="Email" />
+                                <img src={iconeEmail} alt="Email" />
                                 </label>
                                 <input type="text" placeholder="Email" name="email" required/>
                             </div>
                             <div className="formGroup">
                                 <label>
-                                <img src={iconeNomeDoEvento} alt="Telefone" />
+                                <img src={iconeFone} alt="Telefone" />
                                 </label>
                                 <input type="text" placeholder="Telefone" name="telefone" required/>
                             </div>
                             <div className="formGroup">
                                 <label>
-                                <img src={iconeNomeDoEvento} alt="Endereço" />
+                                <img src={iconeEndereco} alt="Endereço" />
                                 </label>
                                 <input type="text" placeholder="Endereço" name="endereço" required/>
                             </div>
                             <div className="formGroup">
                                 <label>
-                                <img src={iconeNomeDoEvento} alt="Foto" />
+                                <img src={iconeFoto} alt="Foto" />
                                 </label>
                                 <label className="foto-label">Insira uma foto da instituição</label>
                                 <label htmlFor="foto" className="foto-upload">Escolher Arquivo</label>
@@ -62,13 +69,13 @@ export default function SignUpModal() {
                             </div>
                             <div className="formGroup">
                                 <label>
-                                <img src={iconeNomeDoEvento} alt="Senha" />
+                                <img src={iconeSenha} alt="Senha" />
                                 </label>
                                 <input type="text" placeholder="Senha" name="senha" required/>
                             </div>
                             <div className="formGroup">
                                 <label>
-                                <img src={iconeNomeDoEvento} alt="Confirme a Senha" />
+                                <img src={iconeSenha} alt="Confirme a Senha" />
                                 </label>
                                 <input type="text" placeholder="Confirme a Senha" 
                                 name="confirmaSenha" required/>
@@ -76,8 +83,8 @@ export default function SignUpModal() {
 
                             <button className="btn-cadastro" type="submit">Criar Conta</button>
                         </form>
-                        <button className="close-modal" onClick={toggleModal}>
-                            X
+                        <button className="close-modal-singUp" onClick={toggleModal}>
+                            <img src={iconeClose} alt="X" />
                         </button>
                     </div>
                 </div>

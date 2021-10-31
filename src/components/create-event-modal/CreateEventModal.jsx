@@ -11,6 +11,7 @@ import iconeLocal from "../../assets/imagens/CriarEvento/place-icon 2.png";
 import iconeEmail from "../../assets/imagens/CriarEvento/email-icon 2.png";
 import iconeDescricao from "../../assets/imagens/CriarEvento/name-icon 2.png";
 import iconeCnpj from "../../assets/imagens/CriarEvento/cnpj2-icon 4.png";
+import iconeClose from "../../assets/imagens/CriarEvento/x.png";
 
 export default function CreateEventModal() {
     const [modal, setModal] = useState(false);
@@ -87,8 +88,8 @@ export default function CreateEventModal() {
                         <button className="btn-evento" type="submit">Fazer Agendamento</button>
                         </form>
 
-                        <button className="close-modal" onClick={toggleModal}>
-                            X
+                        <button className="close-modal-createEvent" onClick={toggleModal}>
+                            <img src={iconeClose} alt="X" />
                         </button>
                     </div>
                 </div>

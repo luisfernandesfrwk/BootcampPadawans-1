@@ -1,5 +1,8 @@
 import React, { useState } from "react";
 import iconeNomeDoEvento from "../../assets/imagens/CriarEvento/name2-icon 2.png"; 
+import iconeCnpj from "../../assets/imagens/CriarEvento/cnpj2-icon 4.png";
+import iconeClose from "../../assets/imagens/CriarEvento/x.png";
+import iconeSenha from "../../assets/imagens/CriarEvento/cadeado-seguro.png";
 
 import "./LoginModal.css";
 
@@ -23,14 +26,14 @@ export default function LoginModal() {
                         <form className="form-login">
                             <div className="formGroup">
                                 <label>
-                                <img src={iconeNomeDoEvento} alt="CNPJ" />
+                                <img src={iconeCnpj} alt="CNPJ" />
                                 </label>
                                 <input type="text" placeholder="CNPJ" name="cnpj" required/>
                             </div>
                             
                             <div className="formGroup">
                                 <label>
-                                <img src={iconeNomeDoEvento} alt="Senha" />
+                                <img src={iconeSenha} alt="Senha" />
                                 </label>
                                 <input type="text" placeholder="Senha" name="senha" required/>
                             </div>
@@ -42,8 +45,8 @@ export default function LoginModal() {
                                 <button>Cadastre-Se</button>
                             </div>
                         </form>
-                        <button className="close-modal" onClick={toggleModal}>
-                            X
+                        <button className="close-modal-login" onClick={toggleModal}>
+                            <img src={iconeClose} alt="X" />
                         </button>
                     </div>
                 </div>
