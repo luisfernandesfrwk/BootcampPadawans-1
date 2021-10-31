@@ -28,64 +28,64 @@ export default function CreateEventModal() {
                     <div onClick={toggleModal} className="overlay"></div>
                     <div className="modal-content-evento">
                         <h2>Criar Evento</h2>
-                        <div className="form-criar-evento">
+                        <form className="form-criar-evento">
                             <div className="formGroup">
                                 <label>
                                 <img src={iconeNomeDoEvento} alt="Nome do Evento" />
                                 </label>
-                                <input type="text" placeholder="Nome do Evento"/>
+                                <input type="text" placeholder="Nome do Evento" name="nome" required/>
                             </div>
                             <div className="formGroup">
                                 <label>
                                 <img src={iconeCnpj} alt="CNPJ" />
                                 </label>
-                                <input type="text" placeholder="CNPJ"/>
+                                <input type="text" placeholder="CNPJ" name="cnpj" required/>
                             </div>
                             <div className="formGroup">
                                 <label>
-                                <img src={iconeLocal} alt="Local" className = "local" />
+                                <img src={iconeLocal} alt="Local" className = "local"/>
                                 </label>
-                                <input type="text" placeholder="Local" />
+                                <input type="text" placeholder="Local" name="local" required/>
                             </div>
                             <div className="formGroup">
                                 <label>
                                 <img src={iconeHora} alt="horário"/>
                                 </label>
-                                <input type="text" placeholder="Horário"/>
+                                <input type="text" placeholder="Horário" name="horario" required/>
                             </div>
                             <div className="formGroup">
                                 <label>
                                 <img src={iconeData} alt="data"/>
                                 </label>
-                                <input type="date" placeholder="Data"/>
+                                <input type="date" placeholder="Data" name="data" required/>
                             </div>
                             <div className="formGroup">
                                 <label>
                                 <img src={iconeEmail} alt="Email" />
                                 </label>
-                                <input type="text" placeholder="Email"/>
+                                <input type="text" placeholder="Email" name="email" required/>
                             </div>
                             <div className="formGroup">
                                 <label>
                                 <img src={iconeFone} alt="Telefone"/>
                                 </label>
-                                <input type="text" placeholder="Telefone"/>
+                                <input type="text" placeholder="Telefone" name="telefone" required/>
                             </div>
                             <div className="formGroup">
                                 <label>
                                 <img src={iconeDoar} alt="Doações"/>
                                 </label>
-                                <input type="text" placeholder="Doações"/>
+                                <input type="text" placeholder="Doações" name="doacoes" required/>
                             </div>
                             <div className="formGroup">
                                 <label>
                                 <img src={iconeDescricao} alt="Descrição"/>
                                 </label>
-                                <input type="text" placeholder="Descrição"/>
+                                <input type="text" placeholder="Descrição" name="descricao" required/>
                             </div>
                     
-                        <button className="btn-evento">Fazer Agendamento</button>
-                        </div>
+                        <button className="btn-evento" type="submit">Fazer Agendamento</button>
+                        </form>
 
                         <button className="close-modal" onClick={toggleModal}>
                             X

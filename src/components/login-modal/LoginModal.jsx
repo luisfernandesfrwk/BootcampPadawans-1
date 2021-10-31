@@ -20,28 +20,28 @@ export default function LoginModal() {
                     <div className="modal-content-login">
                         <h2>Login</h2>
                         
-                        <div className="form-login">
+                        <form className="form-login">
                             <div className="formGroup">
                                 <label>
                                 <img src={iconeNomeDoEvento} alt="CNPJ" />
                                 </label>
-                                <input type="text" placeholder="CNPJ"/>
+                                <input type="text" placeholder="CNPJ" name="cnpj" required/>
                             </div>
                             
                             <div className="formGroup">
                                 <label>
                                 <img src={iconeNomeDoEvento} alt="Senha" />
                                 </label>
-                                <input type="text" placeholder="Senha"/>
+                                <input type="text" placeholder="Senha" name="senha" required/>
                             </div>
 
-                            <button className="btn-login">Entrar</button>
+                            <button className="btn-login" type="submit">Entrar</button>
 
                             <div className="login-options">
                                 <button>Esqueci Minha Senha</button>
                                 <button>Cadastre-Se</button>
                             </div>
-                        </div>
+                        </form>
                         <button className="close-modal" onClick={toggleModal}>
                             X
                         </button>

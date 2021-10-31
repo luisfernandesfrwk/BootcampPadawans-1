@@ -9,30 +9,6 @@
     position: fixed;
 }
 
-input {
-    width: 80%;
-    outline: none;
-    height: 28px;
-    border: none;
-    border-radius: 5px;
-    padding:0px 5px;
-    background-color:#E0E0E0;
-}
-
-input:focus{
-    border: 1px solid #97BF7A;
-}
-
-label{
-    display:flex;
-}
-
-.local{
-    width: 20px;
-    margin-left: 18px;
-    margin-right: 17px;
-} 
-
 .modal{
     z-index: 1;
 }
@@ -60,10 +36,6 @@ label{
     text-align: center;
 }
 
-img{
-    width: 35px;
-    margin: 10px;
-}
 
 .close-modal {
     position: absolute;
@@ -71,7 +43,7 @@ img{
     right: 10px;
     padding: 5px 12px;
     color:#FFFFFF;
-    background-color: rgb(0, 163, 0);
+    background-color: #97BF7A;
     border: none;
     border-radius: 50%;
     cursor: pointer;
@@ -88,6 +60,35 @@ img{
     flex-direction: column;
     justify-content: space-around;
     height:85vh;
+}
+
+.form-criar-evento label{
+    display:flex;
+}
+
+.form-criar-evento .local{
+    width: 20px;
+    margin-left: 18px;
+    margin-right: 17px;
+} 
+
+.form-criar-evento input {
+    width: 80%;
+    outline: none;
+    height: 28px;
+    border: none;
+    border-radius: 5px;
+    padding:0px 5px;
+    background-color:#E0E0E0;
+}
+
+.form-criar-evento input:focus{
+    border: 1px solid #97BF7A;
+}
+
+.form-criar-evento img{
+    width: 35px;
+    margin: 10px;
 }
 
 .btn-evento{

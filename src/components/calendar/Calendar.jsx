@@ -12,8 +12,9 @@ export default () =>
                 <FullCalendar
                 plugins={[ dayGridPlugin ]}
                 initialView="dayGridMonth"
-                contentHeight="65vh"
-                locale="pt-BR"
+                height="70vh"
+                locale="pt-br"
+                events={'https://fullcalendar.io/demo-events.json?overload-day'}
                 />
             </div>
 
